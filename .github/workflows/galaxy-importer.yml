@@ -3,7 +3,7 @@ name: "Collection code testing"
 
 on: push
 
-jogs:
+jobs:
   # ----------------------------------- #
   # Galaxy Importer
   # ----------------------------------- #
