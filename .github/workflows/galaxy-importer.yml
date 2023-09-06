@@ -8,7 +8,7 @@ jobs:
     name: Test galaxy-importer
     runs-on: ubuntu-latest # Older version to be compatible with old python
     env:
-      GALAXY_IMPORTER_CONFIG: galaxy-importer/galaxy-importer.cfg
+      GALAXY_IMPORTER_CONFIG: seiko.smartcs/galaxy-importer/galaxy-importer.cfg
     steps:
       - uses: actions/setup-python@v4
         with:
