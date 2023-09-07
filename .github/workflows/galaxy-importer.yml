@@ -19,7 +19,7 @@ jobs:
       - name: 'Build ansible package'
         run: ansible-galaxy collection build --force seiko.smartcs
       - name: 'show collection list'
-        run: ansible-galaxy collection list
+        run: ansible --version
       - name: 'Run galaxy-importer checks'
         run: python -m galaxy_importer.main *.tar.gz
       - uses: actions/upload-artifact@v3
