@@ -18,8 +18,8 @@ jobs:
         run: pip install "galaxy-importer"
       - name: 'Build ansible package'
         run: ansible-galaxy collection build --force seiko.smartcs
-      #- name: 'Install depended collections'
-      #  run: ansible-galaxy collection install ansible.netcommon
+      - name: 'show collection list'
+        run: ansible-galaxy collection list
       - name: 'Run galaxy-importer checks'
         run: python -m galaxy_importer.main *.tar.gz
       - uses: actions/upload-artifact@v3
