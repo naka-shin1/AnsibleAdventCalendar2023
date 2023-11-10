@@ -6,7 +6,7 @@ This software works as a module of [Ansible](https://ansible.com) by Red Hat, In
 
 ## SmartCS software version compatibility
 
-This collection has been tested against NS-2250 Ver 2.1
+This collection has been tested against NS-2250 Ver 3.1
 
 
 <!--start requires_ansible-->
