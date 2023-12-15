@@ -1,0 +1,2 @@
+- AnsibleAdventCalendar2023で、galaxy-importer について取り扱ったのでGitHub Actionsで呼び出す際のサンプル
+- 実際のモジュール部分は製品はなんでもよいです。
